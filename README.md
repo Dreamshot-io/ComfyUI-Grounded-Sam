@@ -41,3 +41,16 @@ The node provides four output masks:
 2. Positive segmentation
 3. Image mask
 4. Inverted mask
+
+Add this to your ComfyUI config.json file:
+
+```json
+{
+  "git_custom_nodes": {
+    "https://github.com/Dreamshot-io/ComfyUI-Grounded-Sam": {
+      "hash": "13292e95cf62ff925f59b6f038e816c5eb23298f",
+      "disabled": false
+    }
+  }
+}
+```

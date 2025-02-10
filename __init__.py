@@ -1,3 +1,10 @@
+"""
+@author: dreamshot.io
+@title: Grounded SAM Replicate API
+@nickname: Grounded SAM API
+@description: This extension provides Grounded SAM segmentation through Replicate's API for ComfyUI.
+"""
+
 print("Loading Replicate API Node...")  # Add debug print
 
 import os
